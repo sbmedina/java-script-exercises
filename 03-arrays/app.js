@@ -1,21 +1,22 @@
-//exercise 03-a
+// 3) Arrays
+// a) Dado el siguiente array: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"] mostrar por consola los meses 5 y 11 (utilizar console.log).
 let months= ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 console.log (months [4] + months [10] );
-//exercise 03-b
+// b)  Ordenar el array de meses alfabéticamente y mostrarlo por consola (utilizar sort).
 console.log (months.sort());
-//exercise 03-c
+// c) Agregar un elemento al principio y al final del array (utilizar unshift y push).
 months.unshift ("January");
 months.push ("2020");
 console.log (months);
-//exercise 03-d
+// d) Quitar un elemento del principio y del final del array (utilizar shift y pop).
 months.pop ();
 months.shift ();
 console.log (months);
-//exercise 03-e
+// e) Invertir el orden del array (utilizar reverse).
 months.reverse ();
 console.log (months);
-//exercise 03-f
+// f) Unir todos los elementos del array en un único string donde cada mes este separado por un guión - (utilizar join).
 console.log (months.join ('-'))
-//exercise 03-g
+// g) Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).
 let months02= ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 console.log (months02.slice (4,11))

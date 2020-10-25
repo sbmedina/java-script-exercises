@@ -1,25 +1,26 @@
-// exercise 02-a
+// 2) Strings
+// a) Crear una variable de tipo string con al menos 10 caracteres y convertir todo el texto en mayúscula (utilizar toUpperCase).
 var text01 = 'so far so good';
 console.log (text01.toUpperCase() );
-// exercise 02-b
+// b) Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los primeros 5 caracteres guardando el resultado en una nueva variable (utilizar substring).
 var text02 = 'stop wishing start doing'
 var text03 = text02.substring (0,5);
 console.log (text03);
-// exercise 02-c
+// c) Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los últimos 3 caracteres guardando el resultado en una nueva variable (utilizar substring).
 var text04 = 'today is the day'
 var text05 = text04.substring (13,16);
 console.log (text05);
-// exercise 02-d
+// d) Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con la primera letra en mayúscula y las demás en minúscula. Guardar el resultado en una nueva variable (utilizar substring, toUpperCase, toLowerCase y el operador +).
 var text06 = 'tonight is the night'
 var text07 = text06.substring (0,1);
 var text08 = text07.toUpperCase ();
 var text09 = text06.substring (1,20);
 var text10 = text08 += text09;
 console.log (text10)
-// exercise 02-e
+// e) Crear una variable de tipo string con al menos 10 caracteres y algún espacio en blanco. Encontrar la posición del primer espacio en blanco y guardarla en una variable (utilizar indexOf).
 var text11 = 'where shopping is a pleasure'
 console.log (text11.indexOf (' '))
-// exercise 02-f
+// f) Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y algún espacio entre medio). Utilizar los métodos de los ejercicios anteriores para generar un nuevo string que tenga la primera letra de ambas palabras en mayúscula y las demás letras en minúscula (utilizar indexOf, substring, toUpperCase, toLowerCase y el operador +).
 var text12 = 'shopping pleasure'
 text12.indexOf (' ')
 var text13 = text12.substring (0,1)
