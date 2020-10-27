@@ -24,3 +24,19 @@ if (typeof (a) == 'number' && typeof (b) == 'number') {
     }
 }
 // e) Convertir la validación del ejercicio 6b) en una función separada y llamarla dentro de la función suma probando que todo siga funcionando igual.
+function validate(a, b) {
+    if (typeof (a) == 'number' && typeof (b) == 'number') {
+        return true;
+    }
+    else if (typeof (a) != 'number') {
+        console.log('Parameter error: ' + a);
+    } else {
+        console.log('Parameter error: ' + b);
+    }
+}
+function sum(a, b) {
+    if (validate(a, b)) {
+        return a + b;
+    }
+}
+console.log(sum(a, b));
